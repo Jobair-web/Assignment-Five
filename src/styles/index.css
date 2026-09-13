@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .brand-gradient {
+    @apply bg-gradient-to-r from-amber-500 via-rose-500 to-purple-600;
+  }
+  
+  .brand-gradient-text {
+    @apply bg-gradient-to-r from-amber-500 via-rose-500 to-purple-600 bg-clip-text text-transparent;
+  }
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: #1e293b;
+  background-color: #fafafa;
+}
